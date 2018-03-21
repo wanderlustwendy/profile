@@ -1,0 +1,145 @@
+body {
+  background-color: #DFD3D3;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #7C7575;
+  line-height: 25px;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #7C7575;
+}
+
+h2{
+  font-family: 'Lobster Two', cursive;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #7C7575;
+}
+
+h3 {
+  font-family: 'Lobster Two', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #7C7575;
+}
+
+h5 {
+  margin: auto;
+}
+
+td {
+  width:50%;
+}
+
+#avatar-lg {
+  border-radius: 50%;
+  border: 2px solid #DFD3D3;
+  max-height: 180px;
+  max-width: 180px;
+}
+
+.card {
+  margin: 20px auto;
+  width: 500px;
+  background-color: #FBF0F0;
+  padding: 30px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  box-shadow: 5px 5px #B8B0B0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.book-cover {
+  max-height: 200px;
+  max-width: 150px;
+  padding-bottom: 20px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.card > ul {
+  list-style: none;
+  padding-left: 0;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+}
+
+.icon {
+  font-size: 35px;
+  padding: 5px;
+  color: #B8B0B0;
+}
+
+.icon2 {
+  font-size: 25px;
+  padding: 0 10px;
+  color: #B8B0B0;
+}
+
+.icon2:hover{
+  color: #DFD3D3;
+
+}
+
+.link {
+  font-weight: bolder;
+  color: #7C7575;
+}
+
+.contianer {
+  width: 500px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container, .card {
+    width: 500px;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container, .card {
+    width: 300px;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container, .card {
+    width: 300px;
+    margin: 20px auto;
+  }
+}
+
+
+.button {
+    border-radius: 10px;
+    color: white;
+    border: 2px solid #DFD3D3;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #B8B0B0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+.button:hover {
+    background-color: #DFD3D3;
+    color: #7C7575;
+}
